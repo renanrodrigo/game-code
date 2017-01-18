@@ -5,3 +5,7 @@ Those are solutions I have for each stage of Human Resource Machine so far.
 Created for fun, with a hope to spread assembly around the World again, this time forever! hu3hu3hu3
 
 Nope, just for fun.
+
+In the solution filename there are two flags:
+  [s] - If the size is optimal
+  [t] - If the running time is optimal

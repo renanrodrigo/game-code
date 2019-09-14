@@ -1,20 +1,21 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
-    JUMP     c
+    JUMP     b
 a:
     COPYFROM 0
-b:
     OUTBOX  
-c:
+b:
     INBOX   
     COPYTO   0
-    INBOX   
-    COPYTO   1
-    COPYFROM 0
+c:
 d:
-    SUB      1
-    JUMPZ    b
-    JUMPN    a
+    INBOX   
+    JUMPZ    a
+    SUB      0
+    JUMPN    e
+    JUMP     c
+e:
+    ADD      0
     COPYTO   0
     JUMP     d
 

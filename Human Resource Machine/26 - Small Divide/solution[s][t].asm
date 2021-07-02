@@ -18,6 +18,3 @@ c:
     COPYTO   0
     BUMPUP   2
     JUMP     c
-
-
--*
